@@ -10,7 +10,7 @@ function Convertisseur() {
 
   const convertirChiffre = async () => {
     try {
-      const response = await fetch('/convert', {
+      const response = await fetch('https://arab-to-roman-114f70a02b4f.herokuapp.com/convert', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
